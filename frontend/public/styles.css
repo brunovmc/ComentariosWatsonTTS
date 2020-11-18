@@ -41,14 +41,24 @@ footer p {
   display: flex;
 }
 
+.formWrap {
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+}
+
+.noteWrap {
+  display: flex;
+  flex-grow: 1;
+}
+
 .note {
   background: #fff;
   border-radius: 7px;
   box-shadow: 0 2px 5px #ccc;
   padding: 10px;
-  width: 187%;
+  width: 100%;
   margin: 16px;
-  margin-left: 109%;
   float: left;
 }
 .note h1 {
@@ -76,12 +86,13 @@ footer p {
 
 form.create-note {
   position: relative;
-  width: 247%;
+  width: 90%;
   margin: 30px auto 20px 20px;
   background: #fff;
   padding: 15px;
   border-radius: 7px;
   box-shadow: 0 1px 5px rgb(138, 137, 137);
+  flex-grow: 1;
 }
 form.create-note input,
 form.create-note textarea {

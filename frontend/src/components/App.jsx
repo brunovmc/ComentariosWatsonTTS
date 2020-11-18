@@ -39,7 +39,7 @@ function App() {
       <Header />
       <div className="container" >
         <CreateArea onAdd={addComment} />
-        <div>
+        <div className="formWrap">
           {notes && notes.length ?
             notes.map((noteItem, index) => {
               return (

@@ -34,7 +34,7 @@ function CreateArea(props) {
   }
 
   return (
-    <div>
+    <div className="formWrap">
       <form className="create-note">
         <textarea
           name="content"
