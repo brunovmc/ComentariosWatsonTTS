@@ -36,14 +36,19 @@ footer {
 footer p {
   color: #ccc;
 }
+
+.container{
+  display: flex;
+}
+
 .note {
   background: #fff;
   border-radius: 7px;
   box-shadow: 0 2px 5px #ccc;
   padding: 10px;
-  width: 48%;
+  width: 187%;
   margin: 16px;
-  margin-left: 49%;
+  margin-left: 109%;
   float: left;
 }
 .note h1 {
@@ -71,7 +76,7 @@ footer p {
 
 form.create-note {
   position: relative;
-  width: 48%;
+  width: 247%;
   margin: 30px auto 20px 20px;
   background: #fff;
   padding: 15px;
