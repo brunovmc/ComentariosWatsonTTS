@@ -1,7 +1,7 @@
 
 # Watson text-to-speech app
 
-[EN](https://github.com/brunovmc/ComentariosWatsonTTS#installation)[#PT](https://github.com/brunovmc/ComentariosWatsonTTS#instalar)
+[EN](https://github.com/brunovmc/ComentariosWatsonTTS#installation) [PT](https://github.com/brunovmc/ComentariosWatsonTTS#instalar)
 
 Summary:
   - Node web app with MySQL database.
@@ -45,6 +45,7 @@ License
 
 MIT
 
+--------------------------------------------------------------------------
 
 Resumo:
   - aplicação web com Node.js e banco de dados MySQL.
@@ -52,7 +53,7 @@ Resumo:
   - backend utiliza Docker para iniciar.
   - frontend utilizando React
 
-## instalação
+## Instalação
 
 Siga estes passos para instalar pela primeira vez.
 
