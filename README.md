@@ -1,7 +1,7 @@
 
 # Watson text-to-speech app
 
-[EN](https://github.com/brunovmc/ComentariosWatsonTTS#installation) [PT](https://github.com/brunovmc/ComentariosWatsonTTS#instalar)
+[EN](https://github.com/brunovmc/ComentariosWatsonTTS#installation) [PT](https://github.com/brunovmc/ComentariosWatsonTTS#Instalação)
 
 Summary:
   - Node web app with MySQL database.
