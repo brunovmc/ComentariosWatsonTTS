@@ -1,13 +1,15 @@
 
 # Watson text-to-speech app
 
+[EN](https://github.com/brunovmc/ComentariosWatsonTTS#installation)[#PT](https://github.com/brunovmc/ComentariosWatsonTTS#instalar)
+
 Summary:
   - Node web app with MySQL database.
-  - uses Text to Speech API from IBM Watson.
-  - backend containerized using Docker.
-  - frontend using React
+  - Uses Text to Speech API from IBM Watson.
+  - Backend containerized using Docker.
+  - Frontend using React
 
-### Installation
+## Installation
 
 Follow these steps for first time installation.
 
@@ -50,7 +52,7 @@ Resumo:
   - backend utiliza Docker para iniciar.
   - frontend utilizando React
 
-### Instalar
+## instalação
 
 Siga estes passos para instalar pela primeira vez.
 
