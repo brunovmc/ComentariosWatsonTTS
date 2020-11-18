@@ -1,0 +1,44 @@
+version: '3'
+
+services:
+  server:
+    build:
+      context: ./backend
+    volumes:
+      - ./backend:/usr/src/server
+      - /usr/src/server/node_modules
+    ports:
+      - "3000:3000"
+    depends_on:
+      - database
+    command: ["./wait-for-it.sh", "database:3306", "--", "npm", "start"]
+    networks:
+     - app-network
+    links:
+      - database:database
+
+  database:
+    build: 
+      context: ./backend/mysql
+    environment: 
+      - MYSQL_DATABASE=testdb
+      - MYSQL_USER=bruno
+      - MYSQL_PASSWORD=password
+      - MYSQL_ROOT_PASSWORD=docker
+    volumes:
+      - database-data:/var/lib/mysql
+      # - /etc/timezone:etc/timezone:ro
+      # - /etc/localtime:/etc/localtime:ro
+    ports:
+      - "3306:3306"
+    networks:
+      - app-network
+
+networks:
+  app-network:
+    driver: bridge
+
+volumes:
+  database-data:
+    driver: "local"
+
